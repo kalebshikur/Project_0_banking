@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 public class Validator {
-	
+	     
 	static Connection conn = null;
 	static PreparedStatement ptUser = null;
 	static PreparedStatement ptPass = null;

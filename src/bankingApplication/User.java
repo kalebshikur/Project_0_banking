@@ -36,7 +36,7 @@ public class User {
 		System.out.println("If you are a new  customer Press:         B");
 		System.out.println("If you are an employee Press:             C");	
 	}
-	
+	   
 	public void Employee() throws SQLException {
 		String empResponse;
 		System.out.println("If you want to view all transactions press:  X");

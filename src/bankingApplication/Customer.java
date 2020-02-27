@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public final class Customer {
+public final class Customer {   
 	BankDaoImp bdi2 = new BankDaoImp();
 	private String Name, userName, passWord;
 	private String adress, email, phone, SSN;

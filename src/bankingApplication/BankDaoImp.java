@@ -80,7 +80,7 @@ public class BankDaoImp implements BankDaoInt {
 		ptmt = conn.prepareStatement(query2);
 		while (itr.hasNext()) {
 			//System.out.println(itr.next());		
-			ptmt.setString(i,itr.next());
+			ptmt.setString(i,itr.next());   
 			i++;
 			//System.out.println("counter inside input iterator" + i);
 		}

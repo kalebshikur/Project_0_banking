@@ -23,7 +23,7 @@ public final class Employee {
 	static ResultSet empUserRT = null;
 	
 	public void empTransaction() throws SQLException {
-		
+		    
 		connEmpT = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCL", "pj", "pj");
 		userQueryT = "select * from transaction_audits";
 		empUserPT = connEmpT.createStatement();

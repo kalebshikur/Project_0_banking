@@ -35,7 +35,7 @@ public class BankApp {
 			 if(em.EmpLogin()==1) {
 				 s1.Employee();
 				 
-				 
+				
 			 }
 		}else if (rsp.equalsIgnoreCase("B")) {
 			bdi1.insertUser();
